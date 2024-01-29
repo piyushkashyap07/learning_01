@@ -1,14 +1,14 @@
 # requirements_dev.txt we use for the testing
 It makes it easier to install and manage dependencies for development and testing, separate from the dependencies required for production.
 
-# difference between requirements_dev.txt and requirements.txt
+# Difference between requirements_dev.txt and requirements.txt
 
 requirements.txt is used to specify the dependencies required to run the production code of a Python project, while requirements_dev.txt is used to specify the dependencies required for development and testing purposes.
 
 # tox.ini
 We use if for the testing in the python package testing against different version of the python 
 
-## how tox works tox enviornment creation
+## How tox works tox enviornment creation
 1. Install depedencies and packages 
 2. Run commands
 3. Its a combination of the (virtualenvwrapper and makefile)
@@ -40,7 +40,7 @@ In summary, setup.cfg is used by setuptools to configure the packaging and insta
 5. behave
 6. doctest
 
-# check with the code style formatting and syntax(coding standard)
+# Check with the code style formatting and syntax(coding standard)
 
 1. pylint
 2. flake8(it is best because it containt 3 library pylint pycodestyle mccabe)
