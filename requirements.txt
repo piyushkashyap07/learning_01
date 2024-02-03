@@ -5,8 +5,4 @@ pandas
 numpy
 ensure
 pytest
-matplotlib
-
-
-
 -e .
